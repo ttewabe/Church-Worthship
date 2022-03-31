@@ -1,0 +1,103 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  border: #61DAFB;
+  margin: 30px;
+  font-family: Inter, sans-serif;
+  height: 100vh;
+  background-color: #282D35;
+}
+
+.img--icon {
+  height: 500px;
+  width: 500px;
+  
+}
+main {
+  margin:50px 180px;
+  background-image: url(./images/bg.webp);
+  background-repeat: repeat;
+  background-position: bottom ; 
+ 
+  width: 500px;
+  height: 900px;
+}
+.main--name{
+  margin: 10px 150px;
+  color: white;
+}
+.main--h6{
+  margin: 1px 150px;
+  color: rgb(135, 110, 9);
+}
+.main--title {
+  margin-top: 20px;
+  padding-left: 30px;
+  font-size: 25px;
+  letter-spacing: -0.05em;
+  color: white;
+  font-weight: bold;
+ 
+}
+
+.main--facts {
+   max-width: 470px;
+  line-height: 18px;
+  padding-left: 30px;
+  color: white;
+  font-size: 15px;
+}
+.my-bus{
+  margin: 20px 100px;
+  padding-left: 40px;
+}
+.st-plink{
+  margin-right: 40px;
+  width: 150px;
+  background-color: rgb(0, 0, 0);
+  color: rgb(255, 255, 255);
+  font-weight: bold;
+  font-size: 20px;
+  text-align: left 75%;
+  padding: 5px;
+  
+}
+.st-plink1{
+  margin-right: 10px;
+  width: 150px;
+  background-color: rgb(0, 0, 0);
+  color: rgb(255, 255, 255);
+  font-size: 30px;
+  font-weight: bold;
+  padding: 5px;
+  
+}
+footer{
+  margin: -50px 180px;
+  padding-left: 30px; 
+  background-color: rgb(240, 217, 132);
+  color: white;
+  width: 500px;
+  height: 50px;
+}
+.fab{
+  font-weight: bold;
+  margin: 10px;
+  align-items: center;
+  font-size: 40px;
+  
+}
+.fa-linkedin{
+ color: #0b2545;
+}
+.fa-github-square{
+  color: #3a042e;
+ }
+ .fa-facebook{
+  color: rgb(12, 90, 143);
+ }
+ .fa-twitter-square{
+  color: rgb(42, 177, 218);
+ }
