@@ -1,70 +1,105 @@
-# Getting Started with Create React App
+const React =(
+    <div>
+      <img src="./react-logo.png" width ="100px" />
+      <h1>Fun Facts About React</h1>
+      <ul>
+            <li>Was first released in 2013</li>
+            <li>Was originally created by Jordan Walke</li>
+            <li>Has well over 100K stars on GitHub</li>
+            <li>Is maintained by Facebook</li>
+            <li>Powers thousands of enterprise apps, including mobile apps</li>
+        </ul>
+    </div>
+)
+ReactDOM.render(React, document.getElementById("root"))
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
+1. Why do we need to `import React from "react"` in our files?
+React is what defines JSX
 
-In the project directory, you can run:
+2. If I were to console.log(page) in index.js, what would show up?
+A JavaScript object. React elements that describe what React should
+eventually add to the real DOM for us.
 
-### `npm start`
+3. What's wrong with this code:
+```
+const page = (
+    <h1>Hello</h1>
+    <p>This is my website!</p>
+)
+```
+We need our JSX to be nested under a single parent element
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+4. What does it mean for something to be "declarative" instead of "imperative"?
+Declarative means I can tell the computer WHAT to do 
+and expect it to handle the details. Imperative means I need
+to tell it HOW to do each step.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+5. What does it mean for something to be "composable"?
+We have small pieces that we can put together to make something
+larger/greater than the individual pieces.
 
-### `npm test`
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Quiz!
 
-### `npm run build`
+1. What is a React component?
+A function that returns React elements. (UI)
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+2. What's wrong with this code?
+```
+function myComponent() {
+    return (
+        <small>I'm tiny text!</small>
+    )
+}
+```
+Ans: MyComponent() :- "My" should be capital 
+3. What's wrong with this code?
+```
+function Header() {
+    return (
+        <header>
+            <nav>
+                <img src="./react-logo.png" width="40px" />
+            </nav>
+        </header>
+    )
+}
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+ReactDOM.render(Header() , document.getElementById("root"))
+```
+Ans: <Header/>
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+<!--Props-->
+1. What do props help us accomplish?
+Make a component more reusable.
 
-### `npm run eject`
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+2. How do you pass a prop into a component?
+example: 
+<MyAwesomeHeader title="???" />
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+3. Can I pass a custom prop (e.g. `blahblahblah={true}`) to a native
+   DOM element? (e.g. <div blahblahblah={true}>) Why or why not?
+   
+No, because the JSX we use to describe native DOM elements will
+be turned into REAL DOM elements by React. And real DOM elements
+only have the properties/attributes specified in the HTML specification.
+(Which doesn't include properties like `blahblahblah`)
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
 
-## Learn More
+4. How do I receive props in a component?
+example: 
+function Navbar(props) {
+  
+    return (
+        <header>
+            ...
+        </header>
+    )
+}
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+5. What data type is `props` when the component receives it?
+An object!
