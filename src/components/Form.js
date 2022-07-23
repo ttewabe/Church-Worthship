@@ -13,17 +13,12 @@ export default function Form() {
     return (
    
      <div className="container">
-            <div className="row">
-            <div className="col-sm-12 button-dis">
-            <button className="form--button" onClick={getMemeImage}>Get ethiopian orthodox church worship images 🏞</button>
-            
-            </div>
+     <div className="form">
+     <input type="text"  className="form--input" placeholder="Top-text"/>
+     <input type="text" className="form--input" placeholder="Bottom-text"/>
+     <button className="form--button" onClick={getMemeImage}>Get a new meme image 🏞</button>
         </div>
-        <div className="row">
-            <div className="col-sm-12 button-dis">
         <img src={memeImage} className ="meme--image" />
-        </div>
-        </div>
     </div>
     )
 }

@@ -24,68 +24,46 @@ main {
 }
 
 .form {
+  margin-top: 50px;
   display: grid;
   grid-template: 40px 40px / 1fr 1fr;
   gap: 17px;
 }
 
 .form--input {
-  margin: 30px 20px;
-  background-color: #838d53;
-  display: flex;
-  justify-content: center;
   font-family: "Karla", sans-serif;
   border-radius: 10px;
-  border: 2px solid #ffffff;
+  border: 2px solid #524d61;
   text-indent: 5px;
-  color: white;
-  text-align: center;
 }
 
-.button-dis {
+.form--button {
   grid-column: 1 / -1;
-  text-align: center;
   font-family: "Karla", sans-serif;
   font-weight: bold;
-  font-size: 50px;
+  font-size: 25px;
   border-radius: 10px;
-  background: white;
+  background: linear-gradient(90.41deg, #7d538d 1.14%, #a7b50d 100%);
   color: white;
   border: none;
   cursor: pointer;
 }
-.form--button{
-  margin-top: 50px;
-  margin-bottom: 10px;
-  color: #ffffff;
-  background-color: #11365a;
-  font-size: 25px;
-  font-weight: 700;
-  height: 60px;
-  border-radius: 20px solid white;
-}
 .meme--image{
-  margin: 20px 2px;
-  position: relative;
   max-width: 100%;
   width: 100%;
-  height: 90%;
-  display: flex;
-  align-items: center;
-  text-align: center;
-  justify-content:flex-end;
 }
 /* Footer*/
 .site-footer {
+  position:-webkit-sticky;
+  margin-top: 400px;
   padding: 8px 10px;
-  background-color: #11365a;
-  color: #ffffff;
+  background: linear-gradient(90.41deg, #7d538d 1.14%, #a7b50d 100%);
   font-family: Garamond , sans-serif;
   font-size: 21px;
 }
 .site-footer a{
   padding: 8px 5px;
-  background-color:#11365a;
+  
   color: #ffffff;
   font-family: Garamond , sans-serif;
   font-size: 19px;
@@ -95,10 +73,4 @@ main {
   display: flex;
   justify-content:center;
   align-content:center;
-}
-.btn-social-icon{
-  margin: 0px 5px;
-  padding:2px;
-  width:30px;
-  height:30px;
 }
