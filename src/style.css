@@ -1,13 +1,110 @@
-* {
-  box-sizing: border-box;
-}
+@import url("https://fonts.googleapis.com/css2?family=Caudex&display=swap");
 
 body {
-  font-family: "Karla", sans-serif;
-  margin: 0;
-  color: white;
+	margin: 0;
+	padding: 0;
+	font-family: "Caudex", sans-serif;
 }
 
+h1 {
+  text-align:center;
+}
+.container1
+{
+	position: relative;
+	max-width: 100%;
+	width: 100%;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+}
+.container1 .box
+{
+	position: relative;
+	width: 280px;
+	height: 400px;
+	margin: 20px 0;
+	box-sizing: border-box;
+	overflow: hidden;
+}
+.container1 .box .imgBx
+{
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background: #002417;
+	clip-path: circle(400px at center 100px);
+	transition: 0.5s;
+	transition-delay: 0.5s;
+}
+.container1 .box:hover .imgBx
+{
+	clip-path: circle(80px at center 100px);
+	transition-delay: 0s;
+}
+.container1 .box .imgBx img
+{
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+}
+.container1 .box .content
+{
+	position: absolute;
+	left: 0;
+	bottom: 0;
+	width: 100%;
+	height: 55%;
+	padding: 20px;
+	box-sizing: border-box;
+	text-align: center;
+}
+.container1 .box .content h2
+{
+	margin: 0;
+	padding: 0;
+}
+.container1 .box .content a
+{
+	text-decoration: none;
+	background: #002417;
+	color: #fff;
+	padding: 5px;
+	display: inline-block;
+}
+.container1 .box .content h2,
+.container1 .box .content p,
+.container1 .box .content a
+{
+	opacity: 0;
+	transition: 0.5s;
+	transform: translateY(20px);
+}
+.container1 .box:hover .content h2
+{
+	opacity: 1;
+	transform: translateY(0);
+	transition-delay: 0.5s
+}
+.container .box:hover .content p
+{
+	opacity: 1;
+	transform: translateY(0);
+	transition-delay: 0.7s
+}
+.container1 .box:hover .content a
+{
+	opacity: 1;
+	transform: translateY(0);
+	transition-delay: 0.9s
+}
+
+/* Main Slid*/
 main {
   padding: 36px;
 }
@@ -18,9 +115,12 @@ main {
   justify-content: center;
   text-align: center;
   align-items: center;
-  background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTZ0bMYDDij6Mpbuvt6n8tDZBHQMQt2G5AhDCwgVRlbu88LmavndhtSdkl85hemJCMOeoM&usqp=CAU");
-  padding: 20px;
+  background-image: url("https://media.istockphoto.com/photos/round-podium-or-pedestal-with-blue-background-picture-id1226478932?b=1&k=20&m=1226478932&s=170667a&w=0&h=hXsvxQilNanpKx7QC_tIsFUOKPl8fdIDfJ_QSKXesGE=");
+  padding: 10px 20px;
   text-align: center;
+  font-size: 25px;
+  color: #fff;
+  letter-spacing: 2px;
 }
 
 .form {
@@ -47,30 +147,24 @@ main {
   color: white;
   border: none;
   cursor: pointer;
+  letter-spacing: 2px;
 }
 .meme--image{
   max-width: 100%;
   width: 100%;
 }
 /* Footer*/
+
 .site-footer {
-  position:-webkit-sticky;
-  margin-top: 400px;
-  padding: 8px 10px;
-  background: linear-gradient(90.41deg, #7d538d 1.14%, #a7b50d 100%);
-  font-family: Garamond , sans-serif;
-  font-size: 21px;
-}
-.site-footer a{
-  padding: 8px 5px;
-  
+background-image: url("https://media.istockphoto.com/photos/round-podium-or-pedestal-with-blue-background-picture-id1226478932?b=1&k=20&m=1226478932&s=170667a&w=0&h=hXsvxQilNanpKx7QC_tIsFUOKPl8fdIDfJ_QSKXesGE=");
+  padding: 20px 10px;
   color: #ffffff;
   font-family: Garamond , sans-serif;
   font-size: 19px;
-}
-.footer-content{
-  padding: 8px 5px;
   display: flex;
-  justify-content:center;
-  align-content:center;
+  justify-content: center;
+  align-items: center;
+  text-indent: 5px;
+  letter-spacing: 2px;
 }
+

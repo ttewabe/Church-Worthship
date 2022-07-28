@@ -4,15 +4,15 @@ export default {
         "memes": [
             {
                 "id": "181913649",
-                "name": "Drake Hotline Bling",
-                "url": "https://collegevilleinstitute.org/wp-content/uploads/2021/04/02-church-our-lady-mary-of-zion-bible-axum-ethiopia.jpg",
+                "name": "Timiket",
+                "url": "https://pbs.twimg.com/media/DLAgIe-UQAEQTZI.jpg",
                 "width": 1200,
                 "height": 1200,
                 "box_count": 2
             },
             {
                 "id": "87743020",
-                "name": "Two Buttons",
+                "name": "Ketera",
                 "url": "https://bulletin.hds.harvard.edu/files/2020/06/MAIN_TabotSt.Mary_101.r1.jpg",
                 "width": 1200,
                 "height": 1200,
@@ -20,7 +20,7 @@ export default {
             },
             {
                 "id": "112126428",
-                "name": "Distracted Boyfriend",
+                "name": "Program",
                 "url": "http://lh3.googleusercontent.com/-_hvPFVbBP4CoWGxLikB4-oil8KNu1AozmCJVypeIvv60YdEM9CCX8oiOohDsU4-Txkg1SVtfVD3Lg3i-sr0LtM=s900",
                 "width": 1200,
                 "height": 1200,
