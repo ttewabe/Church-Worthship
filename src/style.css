@@ -138,16 +138,24 @@ main {
 }
 
 .form--button {
-  grid-column: 1 / -1;
-  font-family: "Karla", sans-serif;
-  font-weight: bold;
-  font-size: 25px;
-  border-radius: 10px;
-  background: linear-gradient(90.41deg, #7d538d 1.14%, #a7b50d 100%);
-  color: white;
-  border: none;
-  cursor: pointer;
-  letter-spacing: 2px;
+	grid-column: 1 / -1;
+	font-family: "Karla", sans-serif;
+	font-weight: bold;
+	font-size: 25px;
+	border-radius: 10px;
+	background: linear-gradient(90.41deg, #ffffff 2.4%, #a7b50d 20%, #ffffff 100%);
+	border: none;
+	cursor: pointer;
+	letter-spacing: 2px;
+	font-size:40px ;
+	line-height: 40px;
+	color: rgb(243, 243, 243);
+	text-shadow: .09em .04em 0 rgb(199, 199, 199);
+
+}
+.form button{
+
+ 
 }
 .meme--image{
   max-width: 100%;

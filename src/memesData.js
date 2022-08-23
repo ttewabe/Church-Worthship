@@ -26,14 +26,7 @@ export default {
                 "height": 1200,
                 "box_count": 3
             },
-            {
-                "id": "131087935",
-                "name": "Running Away Balloon",
-                "url": "https://c8.alamy.com/comp/HTC35H/a-priest-walks-towards-st-gabriel-ethiopian-orthodox-church-hawassa-HTC35H.jpg",
-                "width": 761,
-                "height": 1024,
-                "box_count": 5
-            },
+            
             {
                 "id": "247375501",
                 "name": "Buff Doge vs. Cheems",
