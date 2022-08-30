@@ -20,7 +20,7 @@ export default function Form() {
             <div class="content">
                 <h2>Axum Zion</h2>
                 <p>The Church of Our Lady Mary of Zion is an Ethiopian Orthodox Tewahedo Church which is claimed to contain the Ark of the Covenant.</p>
-                <a href="#">Read More</a>
+                <a target="_blank" href="https://www.ethiopianorthodox.org/english/ethiopian/worship.html">Read More</a>
             </div>
             </div>
             <div class=" col-lg-3 box">
@@ -30,7 +30,7 @@ export default function Form() {
             <div class="content">
                 <h2>Lalibela Church</h2>
                 <p>The eleven medieval monolithic churches a 'New Jerusalem' were carved out of rock, after Muslim conquests halted Christian pilgrimages to the holy Land.</p>
-                <a href="#">Read More</a>
+                <a  target="_blank" href="https://www.youtube.com/watch?v=excYNB26fhs">Read More</a>
             </div>
             </div>
             <div class=" col-lg-3 box">
@@ -40,7 +40,7 @@ export default function Form() {
             <div class="content">
                 <h2>The Greek Church in Ethiopia</h2>
                 <p>The Greek Orthodox Church in Addis Ababa. Let's go to Addis Ababa in Ethiopia and let's visit The Greek Orthodox Church. </p>
-                <a href="#">Read More</a>
+                <a target="_blank" href="https://www.britannica.com/summary/Ethiopian-Orthodox-Tewahedo-Church">Read More</a>
             </div>
             </div>
             <div class="box col-lg-3">
@@ -50,7 +50,7 @@ export default function Form() {
             <div class="content">
                 <h2>Ethiopian Orthodox</h2>
                 <p>The Ethiopian Orthodox Church is an Oriental Orthodox Church. It is the only pre-colonial Orthodox church in Sub-Saharan Africa.</p>
-                <a href="#">Read More</a>
+                <a target="_blank" href="http://www.zeorthodox.org">Read More</a>
             </div>
             </div>
             </div>

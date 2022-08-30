@@ -10,7 +10,7 @@ function Footer(props) {
                     <ul>
                     <li><a role="button"  target="_blank" style={{color:"white"}} href="+251958134490"><i className="fa fa-phone" /> (408) 365-8905</a></li>
                     <li>
-                    <a role="button" target="_blank" style={{color:"white"}} href="505 Coyote Rd, San Jose, CA 95111"><i className="fa fa-map-marker"/> Rama Gabriel Church</a></li>
+                    <a role="button" target="_blank" style={{color:"white"}} href="https://kidusgebriel.org"><i className="fa fa-map-marker"/> Rama Gabriel Church</a></li>
                     </ul>
                     
                 </div>
