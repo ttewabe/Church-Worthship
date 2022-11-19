@@ -19,7 +19,7 @@ export default function Form() {
             </div>
             <div class="content">
                 <h2>Axum Zion</h2>
-                <p>The Church of Our Lady Mary of Zion is an Ethiopian Orthodox Tewahedo Church which is claimed to contain the Ark of the Covenant.</p>
+                <p>The Church of Our Lady Mary of Zion (the Ark of the Covenant) is an Ethiopian Orthodox Tewahedo Church. </p>
                 <a target="_blank" href="https://www.ethiopianorthodox.org/english/ethiopian/worship.html">Read More</a>
             </div>
             </div>
@@ -29,7 +29,7 @@ export default function Form() {
             </div>
             <div class="content">
                 <h2>Lalibela Church</h2>
-                <p>The eleven medieval monolithic churches a 'New Jerusalem' were carved out of rock, after Muslim conquests halted Christian pilgrimages to the holy Land.</p>
+                <p>The eleven medieval monolithic churches a 'New Jerusalem' were carved out of rock.</p>
                 <a  target="_blank" href="https://www.youtube.com/watch?v=excYNB26fhs">Read More</a>
             </div>
             </div>
@@ -38,8 +38,8 @@ export default function Form() {
             <img src="./images/greek.png"  alt="logo"/>
             </div>
             <div class="content">
-                <h2>The Greek Church in Ethiopia</h2>
-                <p>The Greek Orthodox Church in Addis Ababa. Let's go to Addis Ababa in Ethiopia and let's visit The Greek Orthodox Church. </p>
+                <h2>The Greek Orthodox Church </h2>
+                <p>The very old Greek Orthodox Church found in Addis Ababa.</p>
                 <a target="_blank" href="https://www.britannica.com/summary/Ethiopian-Orthodox-Tewahedo-Church">Read More</a>
             </div>
             </div>
@@ -49,7 +49,7 @@ export default function Form() {
             </div>
             <div class="content">
                 <h2>Ethiopian Orthodox</h2>
-                <p>The Ethiopian Orthodox Church is an Oriental Orthodox Church. It is the only pre-colonial Orthodox church in Sub-Saharan Africa.</p>
+                <p>The Ethiopian Orthodox Church is the only pre-colonial Orthodox church in Sub-Saharan Africa.</p>
                 <a target="_blank" href="http://www.zeorthodox.org">Read More</a>
             </div>
             </div>
